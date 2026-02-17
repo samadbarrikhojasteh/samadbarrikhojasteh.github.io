@@ -23,19 +23,22 @@
                 <p class="name" style="text-align: center;">
                   Samad Barri Khojasteh
                 </p>
-                <p>
-                  I am a researcher at the <a href="https://www.uah.es/es/">University of Alcalá(UAH)</a> in Madrid, Spain, where I work under the supervision of <a href="https://www.uah.es/es/estudios/profesor/Daniel-Pizarro-Perez/">Daniel Pizarro</a>
-                  and <a href= "https://encov.ip.uca.fr/ab/index.php">Adrien Bartoli</a>. I was a visiting researcher in the <a href="https://encov.ip.uca.fr/index.php">EnCoV</a>
-                  at <a href="https://www.uca.fr/">University of Clermont-Ferrand</a>, France with <a href= "https://encov.ip.uca.fr/ab/index.php">Adrien Bartoli</a> (2025).
-                  Previously, I was a research intern at <a href= "https://www.uniovi.es/">University of Oviedo</a> (2017) under <a href="https://erasmus-plus.ec.europa.eu/">Erasmus+</a>
-                  program with <a href= "https://portalinvestigacion.uniovi.es/investigadores/218531/detalle">Jose Ramon Villar</a>.
+                <p style="max-width: 1500px; text-align: justify;">
+                  I am a researcher at the <a href="https://www.uah.es/es/">University of Alcalá (UAH)</a> in Madrid, Spain,
+                  where I work under the supervision of <a href="https://www.uah.es/es/estudios/profesor/Daniel-Pizarro-Perez/">Prof. Daniel Pizarro</a>
+                  and <a href="https://encov.ip.uca.fr/ab/index.php">Prof. Adrien Bartoli</a>. In 2025, I visited the
+                  <a href="https://encov.ip.uca.fr/index.php">EnCoV Research Group</a> at the
+                  <a href="https://www.uca.fr/">University of Clermont Auvergne</a>, France, where I worked on non-rigid registration.
+                  Previously, I was a research intern at the <a href="https://www.uniovi.es/">University of Oviedo</a>, Spain, under the
+                  <a href="https://erasmus-plus.ec.europa.eu/">Erasmus+</a> programme, supervised by
+                  <a href="https://portalinvestigacion.uniovi.es/investigadores/218531/detalle">Prof. José Ramón Villar</a>.
 
                 <p style="text-align:center">
                   <a href="mailto:samad.barri@uah.es">Email</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=IDrqbYIAAAAJ&hl">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://www.linkedin.com/in/samadbarrikhojasteh/">LinkedIn</a> &nbsp;/&nbsp;
                   <a href="https://github.com/samadbarrikhojasteh">Github</a> &nbsp;/&nbsp;
-                  <a href="Cv_gkioxari.pdf">cv</a>
+                  <a href="">Cv</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
@@ -47,12 +50,12 @@
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
-                <p>
+                <p style="max-width: 1500px; text-align: justify;">
                   My research interests lie in applying machine learning and deep learning techniques to real-world healthcare challenges.
                   I am currently working on Non-Rigid Structure from Motion (NRSfM), 3D reconstruction, and deformable modeling for medical imaging,
                   with a particular focus on Neural Radiance Fields (NeRF) and non-rigid registration. My research aims to develop high-fidelity and robust
                   methods for reconstruction and registration in minimally invasive surgery (MIS). Previously, I worked on Human Activity Recognition (HAR), with an emphasis on fall detection for elderly care and monitoring.
-                </p>
+                </>
               </td>
             </tr>
           </tbody></table>
@@ -69,35 +72,33 @@
               </td>
             </tr>
 
-<tr onmouseout="bridgesplat_stop()" onmouseover="bridgesplat_start()">
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='bridgesplat_image'>
-        <img src='images/MICCAI 25 Bridgesplat.png' width=100%>
-      </div>
-      <img src='images/MICCAI 25 Bridgesplat.png' width=100%>
-    </div>
+<tr onmouseout="mis_nerf_stop()" onmouseover="mis_nerf_start()">
+  <td style="padding:5px;width:25%;vertical-align:middle">
+  <div class="video-container">
+   <video width="100%" autoplay muted loop playsinline>
+     <source src="images/registered.mp4" type="video/mp4">
+   </video>
     <script type="text/javascript">
-      function bridgesplat_start() {
-        document.getElementById('bridgesplat_image').style.opacity = "1";
+      function mis_nerf_start() {
+        document.getElementById('mis_nerf_image').style.opacity = "1";
       }
 
-      function bridgesplat_stop() {
-        document.getElementById('bridgesplat_image').style.opacity = "0";
+      function mis_nerf_stop() {
+        document.getElementById('mis_nerf_image').style.opacity = "0";
       }
       radmesh_stop()
     </script>
   </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
+  <td style="padding:20px;width:80%;vertical-align:middle">
     <a href="https://github.com/samadbarrikhojasteh/MIS-NeRF">
       <span class="papertitle">MIS-NeRF: neural radiance fields in minimally-invasive surgery</span>
     </a>
     <br>
     <strong>Samad Barri Khojasteh</strong>,
-    <a href="">David Fuentes-Jimenez</a>,
-    <a href="">Daniel Pizarro </a>,
-    <a href="">Yamid Espinel</a>,
-    <a href="">Adrien Bartoli</a>
+    <a href="https://scholar.google.com/citations?user=nS7WVbkAAAAJ&hl=en">David Fuentes-Jimenez</a>,
+    <a href="https://scholar.google.com/citations?user=edEqzWEAAAAJ&hl=en">Daniel Pizarro </a>,
+    <a href="https://scholar.google.com/citations?user=2Z370rEAAAAJ&hl=en">Yamid Espinel</a>,
+    <a href="https://scholar.google.com/citations?user=_KUZlKYAAAAJ&hl=en">Adrien Bartoli</a>
     <br>
     <em>IPCAI</em>, 2025
     <br>
@@ -109,10 +110,10 @@
   MIS-NeRF improves AR-based lesion localization by facilitating accurate 3D model registration to multiple MIS images.
     </p>
   </td>
-</tr>    
+</tr>
 
 <tr onmouseout="hypernetnerf_stop()" onmouseover="hypernetnerf_start()">
-  <td style="padding:16px;width:20%;vertical-align:middle">
+  <td style="padding:30px;width:20%;vertical-align:middle">
     <div class="one">
         <img src='images/neuron.png' width=100% height=100%>
     </div>
@@ -133,15 +134,15 @@
     </a>
     <br>
 
-    <a href="">Paula Puerta</a>,
-    <a href="">Berke Öztürk</a>,
+    <a href="https://portalinvestigacion.uniovi.es/investigadores/1301798/detalle">Paula Puerta</a>,
+    <a href="https://www.linkedin.com/in/berkeozturk7/?originalSubdomain=tr">Berke Öztürk</a>,
     <strong>Samad Barri Khojasteh</strong>,
-    <a href="">Víctor M. González</a>,
-    <a href="">José R. Villar</a>,
-    <a href="">Esther Serrano-Pertierra</a>,
-    <a href="">Antonello Novelli</a>,
-    <a href="">M. Teresa Fernández-Sánchez</a>,
-    <a href="">Ángel Río-Álvarez</a>,
+    <a href="https://scholar.google.com/citations?user=h5yxSKUAAAAJ&hl=en">Víctor M. González</a>,
+    <a href="https://scholar.google.com/citations?user=wJNz894AAAAJ&hl=en">José R. Villar</a>,
+    <a href="https://scholar.google.com/citations?user=Pd2iIVQAAAAJ&hl=en">Esther Serrano-Pertierra</a>,
+    <a href="https://scholar.google.com/citations?user=WuVrIJUAAAAJ&hl=en">Antonello Novelli</a>,
+    <a href="https://scholar.google.com/citations?user=e2hlc6gAAAAJ&hl=en">M.Teresa Fernández-Sánchez</a>,
+    <a href="https://portalinvestigacion.uniovi.es/investigadores/218159/detalle?lang=gl">Ángel Río-Álvarez</a>,
     <br>
     <em>SOCO</em>, 2023
     <br>
@@ -180,11 +181,11 @@
     </a>
     <br>
 
-    <a href="">José R. Villar</a>,
-    <a href="">Camelia Chira</a>,
-    <a href="">Enrique de la Cal</a>,
-    <a href="">Víctor M. González</a>,
-    <a href="">Javier Sedano</a>,
+    <a href="https://scholar.google.com/citations?user=wJNz894AAAAJ&hl=en">José R. Villar</a>,
+    <a href="https://scholar.google.com/citations?user=Mu3V6yAAAAAJ&hl=en">Camelia Chira</a>,
+    <a href="https://scholar.google.com/citations?user=mUkqt-kAAAAJ&hl=en">Enrique de la Cal</a>,
+    <a href="https://scholar.google.com/citations?user=h5yxSKUAAAAJ&hl=en">Víctor M. González</a>,
+    <a href="https://www.researchgate.net/profile/Javier-Sedano-2">Javier Sedano</a>,
     <strong>Samad Barri Khojasteh</strong>,
     <br>
     <em>Neurocomputing</em>, 2022
@@ -225,11 +226,11 @@
     </a>
     <br>
 
-    <a href="">Mirko Fáñez</a>,
-    <a href="">José R. Villar</a>,
-    <a href="">Enrique de la Cal a</a>,
-    <a href="">Víctor M. González</a>,
-    <a href="">Javier Sedano</a>,
+    <a href="https://www.researchgate.net/profile/Mirko-Fanez-2">Mirko Fáñez</a>,
+    <a href="https://scholar.google.com/citations?user=wJNz894AAAAJ&hl=en">José R. Villar</a>,
+    <a href="https://scholar.google.com/citations?user=mUkqt-kAAAAJ&hl=en">Enrique de la Cal</a>,
+    <a href="https://scholar.google.com/citations?user=h5yxSKUAAAAJ&hl=en">Víctor M. González</a>,
+    <a href="https://www.researchgate.net/profile/Javier-Sedano-2">Javier Sedano</a>,
     <strong>Samad Barri Khojasteh</strong>,
 
     <br>
@@ -263,18 +264,18 @@
       hypernetnerf_stop()
     </script>
   </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
+  <td style="padding:0px;width:80%;vertical-align:middle">
     <a href="">
       <span class="papertitle">Evaluation of a Wrist-Based Wearable Fall Detection Method
           Approach</span>
     </a>
     <br>
     <strong>Samad Barri Khojasteh</strong>,
-    <a href="">José R. Villar</a>,
-    <a href="">Enrique de la Cal a</a>,
-    <a href="">Víctor M. González</a>,
-    <a href="">Javier Sedano</a>,
-    <a href="">Harun Reşit Yazggan</a>,
+    <a href="https://scholar.google.com/citations?user=wJNz894AAAAJ&hl=en">José R. Villar</a>,
+    <a href="https://scholar.google.com/citations?user=mUkqt-kAAAAJ&hl=en">Enrique de la Cal</a>,
+    <a href="https://scholar.google.com/citations?user=h5yxSKUAAAAJ&hl=en">Víctor M. González</a>,
+    <a href="https://www.researchgate.net/profile/Javier-Sedano-2">Javier Sedano</a>,
+    <a href="https://scholar.google.com/citations?user=d1r5OtgAAAAJ&hl=en">Harun Reşit Yazggan</a>,
     <br>
     <em>HAIS</em>, 2018
     <br>
@@ -299,7 +300,6 @@
       function hypernetnerf_start() {
         document.getElementById('hypernetnerf_video').style.opacity = "1";
       }
-
       function hypernetnerf_stop() {
         document.getElementById('hypernetnerf_video').style.opacity = "0";
       }
@@ -313,10 +313,10 @@
     </a>
     <br>
     <strong>Samad Barri Khojasteh</strong>,
-    <a href="">José R. Villar</a>,
-    <a href="">Camelia Chira</a>,
-    <a href="">Víctor M. González</a>,
-    <a href="">Enrique De la Cal</a>,
+    <a href="https://scholar.google.com/citations?user=wJNz894AAAAJ&hl=en">José R. Villar</a>,
+    <a href="https://scholar.google.com/citations?user=Mu3V6yAAAAAJ&hl=en">Camelia Chira</a>,
+    <a href="https://scholar.google.com/citations?user=h5yxSKUAAAAJ&hl=en">Víctor M. González</a>,
+    <a href="https://scholar.google.com/citations?user=mUkqt-kAAAAJ&hl=en">Enrique De la Cal</a>,
     <br>
     <em>SENSORS</em>, 2018
     <br>
@@ -347,14 +347,14 @@
       hypernetnerf_stop()
     </script>
   </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
+  <td style="padding:30px;width:80%;vertical-align:middle">
     <a href="">
       <span class="papertitle">A Stochastic Programming Model for Decision-Making Concerning Medical Supply Location and Allocation in Disaster Management
           Approach</span>
     </a>
     <br>
     <strong>Samad Barri Khojasteh</strong>,
-    <a href="">Irfan Macit </a>,
+    <a href="https://scholar.google.com/citations?user=BQhC1j4AAAAJ&hl=en">Irfan Macit </a>,
 
     <br>
     <em>Cambridge</em>, 2017
